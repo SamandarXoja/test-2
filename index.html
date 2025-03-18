@@ -1,13 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
+
 <body>
-    
-    
+    <header>
+        <nav class="nav">
+            <h1 class="nav-title">Mytech.uz</h1>
+            <img class="nav__close" src="./icons/x.svg" alt="">
+
+
+
+            <div class="nav-search">
+                <img src="./icons/alarm.svg" alt="">
+                <div class="nav-searchs">
+                    <img src="./icons/search.svg" alt="">
+                    <input type="text" placeholder="Поиск по магазину">
+                    <img src="./icons/star.svg" alt="">
+                </div>
+
+            </div>
+
+        </nav>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./images/banner.png" alt="Slide 1"></div>
+                <div class="swiper-slide"><img src="./images/banner.png" alt="Slide 1"></div>
+                <div class="swiper-slide"><img src="./images/banner.png" alt="Slide 1"></div>
+            </div>
+            <!-- Пагинация -->
+            <div class="swiper-pagination"></div>
+        </div>
+
+
+    </header>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="javascripts/main.js"></script>
 </body>
+
 </html>
